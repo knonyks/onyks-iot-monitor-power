@@ -7,3 +7,11 @@ Based on:
 
 Programer:
 * [ESP-prog](https://docs.espressif.com/projects/esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)
+
+### TO DO:
+
+- [x] Add prog connector and essentials for esp32
+- [ ] Add pads for Isens
+- [ ] Add voltage sensor
+- [ ] Change footpirnts
+-
