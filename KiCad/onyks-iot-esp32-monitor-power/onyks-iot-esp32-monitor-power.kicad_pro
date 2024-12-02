@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "onyks-iot-esp32-template.kicad_pro",
+    "filename": "onyks-iot-esp32-monitor-power.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -574,6 +574,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "448550f4-cb5e-4257-a382-eea7386d232b",
+      "Root"
+    ]
+  ],
   "text_variables": {}
 }
