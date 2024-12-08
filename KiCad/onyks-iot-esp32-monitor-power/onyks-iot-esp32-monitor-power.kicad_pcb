@@ -175,12 +175,17 @@
 	(net 54 "Net-(J6-Pin_2)")
 	(net 55 "Net-(J6-Pin_1)")
 	(net 56 "Net-(U3-FILTER)")
-	(net 57 "Net-(J7-Pin_2)")
+	(net 57 "+5V")
 	(net 58 "unconnected-(U4-NC-Pad4)")
+	(net 59 "unconnected-(K1-Pad2)")
+	(net 60 "unconnected-(K1-Pad5)")
+	(net 61 "unconnected-(K1-Pad1)")
+	(net 62 "unconnected-(K1-Pad3)")
+	(net 63 "unconnected-(K1-Pad4)")
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "06feddc4-bc93-46ac-b9a4-5660db479ece")
-		(at 150.9325 119.11)
+		(at 169.0875 56.4)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
@@ -246,7 +251,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/d08d5165-25de-41dd-b1fe-6ab11132ec5a")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -460,7 +465,7 @@
 			)
 		)
 		(path "/af88c25c-c3d0-44a2-ba28-141ea0274cfd")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -773,7 +778,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/ae51c038-9b4f-4461-982b-f270ca9fee8c")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -934,7 +939,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 57 "Net-(J7-Pin_2)")
+			(net 57 "+5V")
 			(pinfunction "IN")
 			(pintype "power_in")
 			(uuid "8e454762-073c-43b0-8d2f-3f91969a2586")
@@ -954,7 +959,7 @@
 			(size 1.325 0.6)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 57 "Net-(J7-Pin_2)")
+			(net 57 "+5V")
 			(pinfunction "EN")
 			(pintype "input")
 			(uuid "bd2e9a13-a657-4081-b52c-0743920e14d7")
@@ -994,11 +999,11 @@
 	(footprint "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1ab77003-2e7c-43d0-8d55-cf308fa92026")
-		(at 168.91 99.06 180)
+		(at 179 76.58 180)
 		(descr "Through hole IDC box header, 2x03, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x03 2.54mm double row")
 		(property "Reference" "J1"
-			(at 1.27 -6.1 360)
+			(at 1.27 -6.1 0)
 			(layer "F.SilkS")
 			(uuid "7016e77d-66e4-462e-8590-9c0799cb7a98")
 			(effects
@@ -1009,7 +1014,7 @@
 			)
 		)
 		(property "Value" "Uart_con"
-			(at 1.27 11.18 360)
+			(at 1.27 11.18 0)
 			(layer "F.Fab")
 			(uuid "49e490c8-0daa-4cdb-9779-8773b45d1943")
 			(effects
@@ -1060,7 +1065,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/b0d90453-81bc-4e2d-ab2f-76095ba491c3")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1541,7 +1546,7 @@
 			)
 		)
 		(path "/76ba8ed6-e0ae-4496-bcc9-9b09b4fcdbcc")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr through_hole)
 		(fp_rect
@@ -1745,7 +1750,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/567a0715-fede-4b15-9c9d-2318373dc516")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -1926,7 +1931,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 57 "Net-(J7-Pin_2)")
+			(net 57 "+5V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "49e0397e-4aa7-4211-a5d8-fecde5c4bb91")
@@ -2012,7 +2017,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/6ed03082-dc59-48f0-a11f-c79d165d7459")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2203,7 +2208,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "37dab303-d3a7-41a2-9e69-02ed33a9acc6")
-		(at 150.9325 110.26)
+		(at 141.0875 110.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -2269,7 +2274,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/3687f91b-317b-400e-b8aa-80006087cbda")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2416,7 +2421,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3b2b7525-06da-42fc-a8b8-eea424fee527")
-		(at 150.9325 113.21)
+		(at 169.0875 50.5)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -2482,7 +2487,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/44e92aa7-bc16-41b3-8ad8-eddc54855f89")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2695,7 +2700,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/982c86ff-8cbb-4ec0-9ec1-8764e91f32f0")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2842,7 +2847,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "49ca643c-c741-4613-81d5-87d919451eea")
-		(at 160.4625 123)
+		(at 156 79.5)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C6"
@@ -2908,7 +2913,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/07846b76-078a-453f-8d74-b6fe40cf0b9b")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3121,7 +3126,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/6ade403d-7ff5-4e89-91a2-7602cfba866a")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3240,7 +3245,7 @@
 			(size 1 1.45)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 57 "Net-(J7-Pin_2)")
+			(net 57 "+5V")
 			(pintype "passive")
 			(uuid "abb79eb5-4c53-4bca-9679-02c109a3a8cc")
 		)
@@ -3268,7 +3273,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "5ca6f2d2-baf1-484f-a7bb-9363eda5ffe4")
-		(at 150.9325 122.06)
+		(at 169.0875 59.35)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R5"
@@ -3334,7 +3339,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1106cf14-d937-4f6b-93de-0a039460c58e")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3478,6 +3483,462 @@
 			)
 		)
 	)
+	(footprint "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+		(layer "F.Cu")
+		(uuid "6b3aab30-b36f-4c58-8856-914bf3b79934")
+		(at 104.35 71.95)
+		(descr "relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf")
+		(tags "relay Sanyu SRD form C")
+		(property "Reference" "K1"
+			(at 8.1 9.2 0)
+			(layer "F.SilkS")
+			(uuid "9be1c75c-1f0c-432e-ab79-7715161fe0bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SANYOU_SRD_Form_C"
+			(at 8 -9.6 0)
+			(layer "F.Fab")
+			(uuid "96279a71-2472-4fa4-9c0a-f1418912777b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfee8c0a-892a-4f24-8bd0-706a1c850bb6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5fe967c3-2404-4a49-8ecd-7dc7ec68ebf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Sanyo SRD relay, Single Pole Miniature Power Relay,"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9febb627-f1b0-4750-bb2d-fb1fcbb21532")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Relay*SPDT*SANYOU*SRD*Series*Form*C*")
+		(path "/250dd2fa-712c-4262-a093-934c927c4c4e")
+		(sheetname "Główny")
+		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
+		(attr through_hole)
+		(fp_line
+			(start -1.4 -7.8)
+			(end -1.4 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a2d25162-b3ad-4108-8b4d-a00303ee253f")
+		)
+		(fp_line
+			(start -1.4 -7.8)
+			(end 18.4 -7.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c48ce64-14c9-4c98-8303-cda117979b0e")
+		)
+		(fp_line
+			(start -1.4 1.2)
+			(end -1.4 7.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7b65a715-4176-46e1-a7b3-e5fbb19bed3f")
+		)
+		(fp_line
+			(start 2.65 0.05)
+			(end 1.85 0.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d5c58dea-20bb-48bc-b28f-1abea89d5e73")
+		)
+		(fp_line
+			(start 2.65 0.05)
+			(end 2.65 3.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9662e81d-31e3-4be5-b0e4-55bd07c9a997")
+		)
+		(fp_line
+			(start 3.55 6.05)
+			(end 6.05 6.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9ddac4cb-c4d5-49fe-b11b-dbc13b1138b3")
+		)
+		(fp_line
+			(start 4.05 -1.75)
+			(end 8.05 -1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "34faa746-09ea-4b7d-8133-c5cdd82f59b5")
+		)
+		(fp_line
+			(start 4.05 1.85)
+			(end 4.05 -1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2daa63b4-b3e4-438c-978e-940cef2d1ec2")
+		)
+		(fp_line
+			(start 6.05 -5.95)
+			(end 3.55 -5.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a4645225-81b3-4a76-8ba5-91ad7953853c")
+		)
+		(fp_line
+			(start 6.05 -5.95)
+			(end 6.05 -1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "199fd0ed-3d6e-4eea-a61b-402d96c24a02")
+		)
+		(fp_line
+			(start 6.05 1.85)
+			(end 6.05 6.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d2a4691d-5bbb-4b07-94a7-f4b8b1f6ab6f")
+		)
+		(fp_line
+			(start 8.05 -1.75)
+			(end 8.05 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c4193196-2605-4ce1-a42d-de1194dbb7f5")
+		)
+		(fp_line
+			(start 8.05 1.85)
+			(end 4.05 -1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aedf82e6-9fd0-492d-a0a6-2f83f3f3ac07")
+		)
+		(fp_line
+			(start 8.05 1.85)
+			(end 4.05 1.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5176b988-9aba-4f76-8a17-e2e3a91dd13a")
+		)
+		(fp_line
+			(start 9.45 0.05)
+			(end 9.45 3.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d8023b9d-a691-46c2-8a07-e93f2d04d7b2")
+		)
+		(fp_line
+			(start 9.45 0.05)
+			(end 10.95 0.05)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4e9d6cf7-c210-421b-91be-1736fa22b371")
+		)
+		(fp_line
+			(start 9.45 3.65)
+			(end 2.65 3.65)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8b82083-c598-4db8-a831-2da5cf10222e")
+		)
+		(fp_line
+			(start 10.95 0.05)
+			(end 15.55 -2.45)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "07ff40d7-0c41-4002-9a4b-bdf706ffcb53")
+		)
+		(fp_line
+			(start 14.15 -4.2)
+			(end 14.15 -1.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "910632e6-5126-4127-b6b2-07885950f2cb")
+		)
+		(fp_line
+			(start 14.15 4.2)
+			(end 14.15 1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8a8ee599-85f4-4e1c-891c-e690fbd0579d")
+		)
+		(fp_line
+			(start 18.4 -7.8)
+			(end 18.4 7.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f8d7b2c-d4c4-43b3-8ab3-90eee35d9cb0")
+		)
+		(fp_line
+			(start 18.4 7.8)
+			(end -1.4 7.8)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ae0003a9-37a6-4812-8aaa-ead6b6fe80a3")
+		)
+		(fp_line
+			(start -1.55 7.95)
+			(end -1.55 -7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "07a9eec1-57de-40de-862a-88654789abde")
+		)
+		(fp_line
+			(start -1.55 7.95)
+			(end 18.55 7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b630b16c-a690-4b5b-b416-6daaff2c453e")
+		)
+		(fp_line
+			(start 18.55 -7.95)
+			(end -1.55 -7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f8cab051-1f65-42e3-9f90-67714abdeeb1")
+		)
+		(fp_line
+			(start 18.55 -7.95)
+			(end 18.55 7.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c2a59fc-0eae-4b68-8345-058531ab7ede")
+		)
+		(fp_line
+			(start -1.3 -7.7)
+			(end 18.3 -7.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e73f1c72-6116-426a-95b8-2afc6361cb07")
+		)
+		(fp_line
+			(start -1.3 7.7)
+			(end -1.3 -7.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f566ee42-7e3d-4d49-8d8a-4044b7ea25ac")
+		)
+		(fp_line
+			(start 18.3 -7.7)
+			(end 18.3 7.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7376822b-7b0f-49bd-8ed0-555d70b05b8f")
+		)
+		(fp_line
+			(start 18.3 7.7)
+			(end -1.3 7.7)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2156148-5027-4610-8728-411bb8e11a56")
+		)
+		(fp_text user "1"
+			(at 0 -2.3 0)
+			(layer "F.Fab")
+			(uuid "b85e4cf2-ef01-44db-b8e8-7f06b63c936e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 7.1 0.025 0)
+			(layer "F.Fab")
+			(uuid "bcf1c42c-3d67-4a89-9c21-e8066c5ec7d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0 90)
+			(size 3 3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 61 "unconnected-(K1-Pad1)")
+			(pintype "passive")
+			(uuid "d85127ec-de58-4f8e-b966-646c588724b2")
+		)
+		(pad "2" thru_hole circle
+			(at 1.95 6.05 90)
+			(size 2.5 2.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 59 "unconnected-(K1-Pad2)")
+			(pintype "passive")
+			(uuid "b992e50f-e901-4636-8ee8-0b1239fe3c8e")
+		)
+		(pad "3" thru_hole circle
+			(at 14.15 6.05 90)
+			(size 3 3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 62 "unconnected-(K1-Pad3)")
+			(pintype "passive")
+			(uuid "df22f90f-3e05-4603-8fc5-d6aa83d14452")
+		)
+		(pad "4" thru_hole circle
+			(at 14.2 -6 90)
+			(size 3 3)
+			(drill 1.3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 63 "unconnected-(K1-Pad4)")
+			(pintype "passive")
+			(uuid "e33ecc0d-ad46-412e-9872-9f47010d5c72")
+		)
+		(pad "5" thru_hole circle
+			(at 1.95 -5.95 90)
+			(size 2.5 2.5)
+			(drill 1)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 60 "unconnected-(K1-Pad5)")
+			(pintype "passive")
+			(uuid "d691acb0-9f65-431d-943f-872fe3153355")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Relay_THT.3dshapes/Relay_SPDT_SANYOU_SRD_Series_Form_C.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "72f958ba-13cf-4da7-aa8d-3e1f55ed3bb5")
@@ -3547,7 +4008,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/1ca4307a-b00a-4cc5-8f55-c147c4373a77")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3760,7 +4221,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/b1e072e3-c026-4c8e-b108-7e8cdba7cf49")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3970,7 +4431,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/3caafb7f-326a-497d-93c6-d899ff8b0116")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4171,7 +4632,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "809d90fa-6253-4422-8025-a1f79c3877e2")
-		(at 150.9325 116.16)
+		(at 169.0875 53.45)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
@@ -4237,7 +4698,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5a629aac-419f-44e1-928f-18dab2a7b938")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4450,7 +4911,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/62158531-d8ac-473e-a696-3a5a1fa80f57")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -4695,11 +5156,11 @@
 	(footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
 		(layer "F.Cu")
 		(uuid "964a5c31-2515-44a8-b16c-d5d0d41902ad")
-		(at 145.5 88)
+		(at 155.65 73.55 -90)
 		(descr "5.0mm x 5.0mm Addressable RGB LED NeoPixel, https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf")
 		(tags "LED RGB NeoPixel PLCC-4 5050")
 		(property "Reference" "D1"
-			(at 0 -3.5 0)
+			(at 0 -3.5 90)
 			(layer "F.SilkS")
 			(uuid "dd761c7c-1b40-428e-b7d4-6e6fd1de867d")
 			(effects
@@ -4710,7 +5171,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 0 4 0)
+			(at 0 4 90)
 			(layer "F.Fab")
 			(uuid "28774895-5002-47d8-9cda-c22de4d13dca")
 			(effects
@@ -4721,7 +5182,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4734,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4747,7 +5208,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0 0)
+			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -4761,29 +5222,9 @@
 		)
 		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/29641eb2-8e36-4136-a211-01c76120978c")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start -3.5 -2.75)
-			(end -3.5 2.75)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "28375d16-6eab-4fbe-9cd5-49017e443906")
-		)
-		(fp_line
-			(start -3.5 -2.75)
-			(end 3.5 -2.75)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c0d2cd14-5410-410d-82fe-c7ae44ec181e")
-		)
 		(fp_line
 			(start -3.5 2.75)
 			(end 3.05 2.75)
@@ -4793,26 +5234,6 @@
 			)
 			(layer "F.SilkS")
 			(uuid "a02be6c3-026d-4fc7-8c77-e7246bf9ecc2")
-		)
-		(fp_line
-			(start -2.7 0.9)
-			(end -2.7 -0.9)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "d0ad0664-c0e5-455d-a854-2e192cfb3494")
-		)
-		(fp_line
-			(start 2.7 0.9)
-			(end 2.7 -0.9)
-			(stroke
-				(width 0.12)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "a744ca88-e1a9-46dc-8488-137130d7d5b7")
 		)
 		(fp_line
 			(start 3.05 2.75)
@@ -4835,14 +5256,44 @@
 			(uuid "2e48af5b-81d4-4036-bc57-b194f0a73adf")
 		)
 		(fp_line
-			(start -3.45 -2.75)
-			(end -3.45 2.75)
+			(start -2.7 0.9)
+			(end -2.7 -0.9)
 			(stroke
-				(width 0.05)
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "d0ad0664-c0e5-455d-a854-2e192cfb3494")
+		)
+		(fp_line
+			(start 2.7 0.9)
+			(end 2.7 -0.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "a744ca88-e1a9-46dc-8488-137130d7d5b7")
+		)
+		(fp_line
+			(start -3.5 -2.75)
+			(end -3.5 2.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "F.SilkS")
+			(uuid "28375d16-6eab-4fbe-9cd5-49017e443906")
+		)
+		(fp_line
+			(start -3.5 -2.75)
+			(end 3.5 -2.75)
+			(stroke
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "3f62a581-9888-4337-a27b-d30c5e8171f3")
+			(layer "F.SilkS")
+			(uuid "c0d2cd14-5410-410d-82fe-c7ae44ec181e")
 		)
 		(fp_line
 			(start -3.45 2.75)
@@ -4855,16 +5306,6 @@
 			(uuid "bf4c8676-8cb3-41d0-84a6-85d51fb89b8e")
 		)
 		(fp_line
-			(start 3.45 -2.75)
-			(end -3.45 -2.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "bb2050b7-9490-4d8a-a8c2-089aac0855ba")
-		)
-		(fp_line
 			(start 3.45 2.75)
 			(end 3.45 -2.75)
 			(stroke
@@ -4875,14 +5316,24 @@
 			(uuid "dc02dfd4-e8c0-4160-94d1-57d54e1c5827")
 		)
 		(fp_line
-			(start -2.5 -2.5)
-			(end -2.5 2.5)
+			(start -3.45 -2.75)
+			(end -3.45 2.75)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "0f8ee743-3d73-4a37-85d6-95fd0d49a892")
+			(layer "F.CrtYd")
+			(uuid "3f62a581-9888-4337-a27b-d30c5e8171f3")
+		)
+		(fp_line
+			(start 3.45 -2.75)
+			(end -3.45 -2.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bb2050b7-9490-4d8a-a8c2-089aac0855ba")
 		)
 		(fp_line
 			(start -2.5 2.5)
@@ -4895,14 +5346,14 @@
 			(uuid "16fedb31-5614-4676-818d-d1c25abcdf48")
 		)
 		(fp_line
-			(start 2.5 -2.5)
-			(end -2.5 -2.5)
+			(start 2.5 2.5)
+			(end 2.5 -2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "528e7e2d-762d-481e-9704-4e7510a9193b")
+			(uuid "c393b002-2958-4c3d-8f3e-764b41ea7cd6")
 		)
 		(fp_line
 			(start 2.5 1.5)
@@ -4915,14 +5366,24 @@
 			(uuid "bb75a04f-7e4d-4b79-81ab-650bf6fa5386")
 		)
 		(fp_line
-			(start 2.5 2.5)
-			(end 2.5 -2.5)
+			(start -2.5 -2.5)
+			(end -2.5 2.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "c393b002-2958-4c3d-8f3e-764b41ea7cd6")
+			(uuid "0f8ee743-3d73-4a37-85d6-95fd0d49a892")
+		)
+		(fp_line
+			(start 2.5 -2.5)
+			(end -2.5 -2.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "528e7e2d-762d-481e-9704-4e7510a9193b")
 		)
 		(fp_circle
 			(center 0 0)
@@ -4936,7 +5397,7 @@
 			(uuid "c7ee30d7-5b4d-4c68-a81f-60261c10a2df")
 		)
 		(fp_text user "1"
-			(at -4.15 -1.6 0)
+			(at -4.15 -1.6 90)
 			(layer "F.SilkS")
 			(uuid "5331618c-8b52-452e-845e-69b86f5e0338")
 			(effects
@@ -4947,7 +5408,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "7e0adfa0-1db9-4239-ba29-51f7d59c28eb")
 			(effects
@@ -4958,7 +5419,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.45 -1.65)
+			(at -2.45 -1.65 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.1)
@@ -4968,7 +5429,7 @@
 			(uuid "d6c8c6b0-6c68-4441-940e-8bfcbde504bf")
 		)
 		(pad "2" smd roundrect
-			(at -2.45 1.65)
+			(at -2.45 1.65 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.1)
@@ -4978,7 +5439,7 @@
 			(uuid "755505f4-93c2-4377-b4e4-ffd0ef37718d")
 		)
 		(pad "3" smd roundrect
-			(at 2.45 1.65)
+			(at 2.45 1.65 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.1)
@@ -4988,7 +5449,7 @@
 			(uuid "a605ceb1-9669-4f58-a64f-e0e5f1d0e13f")
 		)
 		(pad "4" smd roundrect
-			(at 2.45 -1.65)
+			(at 2.45 -1.65 270)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.1)
@@ -5078,7 +5539,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/dc03f828-824b-4595-8db4-45d85b37010d")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5291,7 +5752,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f1dcc38f-2350-47fe-b1da-d9905e8be28a")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5504,7 +5965,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/49fcf785-8cdd-410c-abb4-d15870333267")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5714,7 +6175,7 @@
 		)
 		(property ki_fp_filters "SOIC*3.9x4.9m*P1.27mm*")
 		(path "/7e932147-1a8b-4311-9c0d-4fa3afca4e2f")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6031,7 +6492,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1c3160e3-43c2-4785-9489-c2dc67981c18")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6244,7 +6705,7 @@
 		)
 		(property ki_fp_filters "TSSOP*3x3mm*P0.5mm*")
 		(path "/18d22428-920f-48df-9878-5a967b0d5818")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6591,7 +7052,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/5396140f-75ba-4d66-ba2f-08768bf1cbf3")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6791,7 +7252,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/80ee8e73-e53f-4303-8439-67f4fb57e0ad")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7004,7 +7465,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/ae3ac329-d716-4993-81e5-244e8ca5bb6b")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7217,7 +7678,7 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/c91839cf-5940-4a26-a258-522b385a685b")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7418,7 +7879,7 @@
 	(footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d41902a1-8d8c-4a73-89cc-fc49778d1c6d")
-		(at 168.275 80.645 180)
+		(at 179 59.04 180)
 		(descr "Through hole IDC box header, 2x05, 2.54mm pitch, DIN 41651 / IEC 60603-13, double rows, https://docs.google.com/spreadsheets/d/16SsEcesNF15N3Lb4niX7dcUr-NY5_MFPQhobNuNppn4/edit#gid=0")
 		(tags "Through hole vertical IDC box header THT 2x05 2.54mm double row")
 		(property "Reference" "J2"
@@ -7484,7 +7945,7 @@
 		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/9cf70333-6f9f-4680-baf8-b42914865936")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -8010,7 +8471,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/7f4882b0-261d-4539-9ccc-9ad573596f05")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8157,7 +8618,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "e93e2f0c-1ee0-4c62-92a6-7573ef228985")
-		(at 155.6825 110.26)
+		(at 159.5 100)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R7"
@@ -8223,7 +8684,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/ff249ee8-bd8d-4b20-abe6-9527748edceb")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8436,7 +8897,7 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/d6c34519-d850-476b-8b4c-1b3d26fe4688")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8583,7 +9044,7 @@
 	(footprint "RF_Module:ESP32-WROOM-32D"
 		(layer "F.Cu")
 		(uuid "eb5b6945-eef4-461d-8d86-e9a5106d1e66")
-		(at 133.45 62.63)
+		(at 149.25 49.13)
 		(descr "2.4 GHz Wi-Fi and Bluetooth module, https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf")
 		(tags "2.4 GHz Wi-Fi and Bluetooth module ESP32-D0WD Espressif ESP32-WROOM-32E")
 		(property "Reference" "U1"
@@ -8649,7 +9110,7 @@
 		)
 		(property ki_fp_filters "ESP32?WROOM?32D*")
 		(path "/fa94a30b-a253-4a6d-b964-01e416620823")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9710,7 +10171,7 @@
 			)
 			(polygon
 				(pts
-					(xy 109.45 53.08) (xy 157.45 53.08) (xy 157.45 31.89) (xy 109.45 31.89)
+					(xy 125.25 39.58) (xy 173.25 39.58) (xy 173.25 18.39) (xy 125.25 18.39)
 				)
 			)
 		)
@@ -9795,7 +10256,7 @@
 		)
 		(property ki_fp_filters "TerminalBlock*:*")
 		(path "/c85c1773-a063-4cca-8c0b-db41b4641646")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9995,7 +10456,7 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/40d53cd9-3f56-42cc-af6c-e242a9692f55")
-		(sheetname "Root")
+		(sheetname "Główny")
 		(sheetfile "onyks-iot-esp32-monitor-power.kicad_sch")
 		(attr smd)
 		(fp_line

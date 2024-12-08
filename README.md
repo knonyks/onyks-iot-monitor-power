@@ -9,10 +9,18 @@ Programer:
 * [ESP-prog](https://docs.espressif.com/projects/esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)
 * [voltage module schematic](https://diyprojectslab.com/zmpt101b-voltage-sensor-module-with-arduino/)
 
+Power suply:
+* [220V-5V_1000mA/2000mA](https://pl.aliexpress.com/item/1005005029575292.html?spm=a2g0o.order_list.order_list_main.40.53561c24AgBVnU&gatewayAdapt=glo2pol)
+
+Connector
+* [Screw_connectorm_8x8_M3](https://pl.aliexpress.com/item/1005007060857910.html?spm=a2g0o.detail.0.0.38d7AUSVAUSVAv&mp=1&_gl=1*10grcc4*_gcl_aw*R0NMLjE3Mjgy)
+
 ### TO DO:
 
 - [x] Add prog connector and essentials for esp32
 - [x] Add pads for Isens
 - [x] Add voltage sensor
 - [x] Change footpirnts
--
+- [] Test ad-dc converter
+- [] Add relay
+- [] Add extra outputs (5V, sig, GND)
