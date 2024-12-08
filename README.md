@@ -3,15 +3,16 @@
 Based on:
 * ACS712 - 30A
 * 2ma - 2ma voltage measuring transformer
-* ads1115 - I2C ADC 16bit
+* ADS1115 - I2C ADC 16bit
 
 Programer:
 * [ESP-prog](https://docs.espressif.com/projects/esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)
+* [voltage module schematic](https://diyprojectslab.com/zmpt101b-voltage-sensor-module-with-arduino/)
 
 ### TO DO:
 
 - [x] Add prog connector and essentials for esp32
-- [ ] Add pads for Isens
-- [ ] Add voltage sensor
-- [ ] Change footpirnts
+- [x] Add pads for Isens
+- [x] Add voltage sensor
+- [x] Change footpirnts
 -
