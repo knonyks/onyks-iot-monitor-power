@@ -21,6 +21,6 @@ Connector
 - [x] Add pads for Isens
 - [x] Add voltage sensor
 - [x] Change footpirnts
-- [] Test ad-dc converter
-- [] Add relay
-- [] Add extra outputs (5V, sig, GND)
+- [ ] Test ad-dc converter
+- [x] Add relay
+- [ ] Add extra outputs (5V, sig, GND)
