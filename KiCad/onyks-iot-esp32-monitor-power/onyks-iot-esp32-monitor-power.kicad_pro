@@ -178,7 +178,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.635
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -590,7 +591,7 @@
   "sheets": [
     [
       "448550f4-cb5e-4257-a382-eea7386d232b",
-      "Główny"
+      "Root"
     ]
   ],
   "text_variables": {}
