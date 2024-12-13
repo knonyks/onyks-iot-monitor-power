@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.4,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -183,7 +183,8 @@
         0.254,
         0.508,
         0.635,
-        1.016
+        1.016,
+        2.54
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -607,7 +608,7 @@
   "sheets": [
     [
       "448550f4-cb5e-4257-a382-eea7386d232b",
-      "Root"
+      "Główny"
     ]
   ],
   "text_variables": {}
