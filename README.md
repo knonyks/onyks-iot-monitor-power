@@ -35,7 +35,7 @@ Programer:
 
 ### PCB V2:
 
-* [check list](docs/V2/check_list.md)
+
 
 
 ---
