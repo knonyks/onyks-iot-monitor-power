@@ -11,16 +11,6 @@ Programer:
 * [ESP-prog](https://docs.espressif.com/projects/esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)
 
 
-### TO DO:
-
-- [x] Add prog connector and essentials for esp32
-- [x] Add pads for Isens
-- [x] Add voltage sensor
-- [x] Change footpirnts
-- [ ] Test ad-dc converter
-- [x] Add relay
-- [x] Add extra outputs (5V, sig, GND)
-
 ### PCB V1 (not for production):
 
 * [schematic](img/V1/schematic_v1.pdf)
