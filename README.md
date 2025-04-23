@@ -29,7 +29,7 @@ Connector:
 - [x] Add relay
 - [x] Add extra outputs (5V, sig, GND)
 
-### PCB V1 (not for prodaction):
+### PCB V1 (not for production):
 
 * [schematic](img/V1/schematic_v1.pdf)
 * [bom](fab/V1/ibom.html)
