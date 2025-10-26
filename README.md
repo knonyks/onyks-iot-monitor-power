@@ -11,7 +11,7 @@ Programer:
 * [ESP-prog](https://docs.espressif.com/projects/esp-iot-solution/en/latest/hw-reference/ESP-Prog_guide.html)
 
 
-### PCB V1 (not for production):
+### PCB V1:
 
 * [schematic](img/V1/schematic_v1.pdf)
 * [bom](fab/V1/ibom.html)
