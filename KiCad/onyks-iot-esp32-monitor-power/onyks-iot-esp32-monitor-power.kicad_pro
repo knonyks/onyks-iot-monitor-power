@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 0.9
+          "height": 1.4,
+          "width": 1.025
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -228,12 +228,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.381,
-          "drill": 0.127
-        },
-        {
           "diameter": 0.635,
-          "drill": 0.254
+          "drill": 0.381
         },
         {
           "diameter": 1.143,
@@ -473,6 +469,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
